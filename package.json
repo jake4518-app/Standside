@@ -40,4 +40,9 @@ git push
   "react-scripts": "5.0.1",
   "@supabase/supabase-js": "^2.0.0"
 }
+git add package.json
+git commit -m "Add react-scripts dependency for Vercel"
+git push
+
+
 
