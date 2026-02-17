@@ -30,4 +30,8 @@
   "react-scripts": "5.0.1"
 }npm install react-scripts@5.0.1 --save
 
+git add package.json package-lock.json
+git commit -m "Add react-scripts dependency for Vercel"
+git push
+
 
