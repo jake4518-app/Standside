@@ -13,11 +13,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
-    "engines": 
-  "node": "20.x"
-}
-
+  },
+  "engines": {
+    "node": "20.x"
   },
   "eslintConfig": {
     "extends": [
@@ -37,9 +35,4 @@
       "last 1 safari version"
     ]
   }
-}git add package.json
-git commit -m "Set Node 20 for Vercel deployment"
-git push
-
-
-
+}
