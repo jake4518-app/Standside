@@ -1,38 +1,24 @@
 {
   "name": "standside",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "5.0.1",
-    "@supabase/supabase-js": "^2.0.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
   },
-  "engines": {
-    "node": "20.x"
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/bottom-tabs": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "react-native-screens": "~3.29.0",
+    "react-native-safe-area-context": "4.8.2"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
   }
 }
